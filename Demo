@@ -17,6 +17,7 @@ int main()
     msleep(500);
     disable_servos();
     drive_forward(5);
+    turn_right(180);
     
     return 0;
 }
